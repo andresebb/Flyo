@@ -1,0 +1,85 @@
+
+:root{
+    --font-body: 'Open Sans', sans-serif;
+    --font-action: 'Raleway', sans-serif; /* Header, call-to-actions, titles */
+    --color-intro-email-background: hsl(217, 28%, 15%);
+    --color-main-background: hsl(218, 28%, 13%);
+    --color-footer-background: hsl(216, 53%, 9%);
+    --color-testimonials-background: hsl(219, 30%, 18%);
+    --color-call-to-action: hsl(198, 60%, 50%);
+    --color-call-to-action-grey: hsl(176, 68%, 64%);
+
+}
+
+body{
+    font-family: var(--font-body);
+    margin: 0;
+    overflow-x: hidden;
+    background: var(--color-intro-email-background);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px 45px;
+    background: var(--color-intro-email-background) ;
+}
+
+header img{
+    height: 40px;
+    width: 120px;
+}
+
+ul{
+    display: flex;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 25px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-action);
+}
+
+
+/*/////////////////////////////////////////HERO  */
+
+.hero{
+    position: relative;
+    width: 500px;
+    padding: 10px;
+    background: var(--color-intro-email-background);
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero .imagen1{
+    max-width: 350px;
+    max-height: 350px;
+    padding: 10px;
+}
+
+.hero h1{
+    font-size: 28px;
+    font-family: var(--font-action);
+}
+
+.hero__description{
+    margin: 15px 0;
+}
+
+.btn{
+    padding: 15px 30px;
+    width: 50%;
+    background: var(--color-call-to-action);
+    font-family: var(--font-action);
+    border: none;
+    font-size: 14px;
+    border-radius: 25px;
+}
+
