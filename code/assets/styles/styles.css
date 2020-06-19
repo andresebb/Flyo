@@ -18,6 +18,7 @@ body{
     background: var(--color-intro-email-background);
     position: relative;
     font-size: 14px;
+    color: white;
 }
 
 body .imagen2{
@@ -167,7 +168,7 @@ main{
 
 
 .comments{
-    height: 300px;
+    height: 408px;
 }
 
 .comments__container{
@@ -228,3 +229,104 @@ main{
     margin-right: 8px;
     border-radius: 35px ;
 }
+
+
+.footer{
+    background: var(--color-footer-background);
+    padding: 0 50px;
+}
+
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.footer__location{
+}
+
+.footer__direction{
+    display: flex;
+    align-items: center;
+}
+
+.footer__direction img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.contact{
+    margin-top: 30px;
+}
+
+.contact__phone{
+    display: flex;
+    align-items: center;
+}
+
+.contact__email{
+    display: flex;
+    align-items: center;
+}
+
+.imagen__contact{
+    margin-right: 12px;
+}
+
+.about-us{
+    margin-top: 30px;
+}
+
+.about-us a{
+    margin: 20px;
+}
+
+
+.support{
+    width: 600px;
+    background: var(--color-intro-email-background);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 252px;
+    left: 0;
+    right: 0;
+    box-shadow: 8px 9px 8px -2px #0f0f1099;
+
+}
+
+.support h2{
+    font-size: 26px;
+    font-family: var(--font-action);
+}
+
+.acces{
+    display: flex;
+    justify-content: center;
+}
+
+.escribe{
+    width: 300px;
+    height: 38px;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    margin-right: 12px;
+}
+
+.btn-access{
+    width: 150px;
+    padding: 20 10px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    background: var(--color-call-to-action);
+    font-family: var(--font-action);
+    color: white;
+    font-weight: bold;
+}
+
